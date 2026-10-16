@@ -1,0 +1,1 @@
+{"name":"safeparent","version":"0.1.0","private":true,"type":"module","scripts":{"test":"node --test tests/*.test.js","start":"python3 -m http.server 8080 --bind 127.0.0.1"},"description":"Offline Alexa+ experience simulation for family scam-response workflows"}
