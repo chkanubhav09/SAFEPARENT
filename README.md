@@ -1,5 +1,5 @@
 # SAFEPARENT
-Private development MVP for the Amazon Build, Ship, Shape hackathon, Alexa+ simulated-experience route.
+Open-source (MIT) family scam-safety assistant for the Amazon Build, Ship, Shape hackathon, Alexa+ simulated-experience route. Live demo: https://chkanubhav09.github.io/SAFEPARENT/
 
 ## Run
 Requires Python 3. From this directory:
@@ -12,7 +12,7 @@ Open http://127.0.0.1:8080. No API keys, account, AWS or paid runtime. Assets an
 Message-pattern evidence, local URL hostname parsing, saved cases/checklist notes, a user-supplied trusted-contact name, callback practice script, and a five-tool evidence/state/contact planner with four conversational views. Persistent data lives in localStorage in the browser profile; the delete-all button clears it, and per-case deletion removes an individual case and the event trace. Common labelled secret values are masked before storage, but masking is incomplete. This is a deterministic local workflow engine, NOT a trained scam model, LLM or live Alexa+ connection. No calls, reports, blocks, transfers or external calendar updates are performed.
 
 ## Limits
-No verdict proves safety or scam identity. Bare domains, attachments, hidden links and obfuscated text may be missed. No reputation checks, link fetching or redirect inspection. A checklist tick is only a user note. Local storage is readable by others using this browser profile. Do not enter real passwords/codes. Private browser mode/storage errors may prevent persistence. This MVP needs more usability/edge-case review before submission.
+No verdict proves safety or scam identity. Bare domains, attachments, hidden links and obfuscated text may be missed. No reputation checks, link fetching or redirect inspection. A checklist tick is only a user note. Local storage is readable by others using this browser profile. Do not enter real passwords/codes. Private browser mode/storage errors may prevent persistence.
 
 ## Test
 Node 18+:
@@ -22,7 +22,7 @@ Node 18+:
 Browser test dependency is development-only, fetched from npm; it does not require a paid service. See tests/browser.mjs.
 
 ## New hackathon work
-This code was written for SAFEPARENT on 10 October 2026. It shares only the problem space with earlier experiments; no code was reused. The contribution is a family response workflow with stateful tools and evidence cards. No public repository, deployment, license grant, video upload or submission is authorized by this private bundle. Official source: https://amazonappdev2026.devpost.com/rules
+This code was written for SAFEPARENT on 10 October 2026. It shares only the problem space with earlier experiments; no code was reused. The contribution is a family response workflow with stateful tools and evidence cards. Submitted to the hackathon's Alexa+ simulated-experience route and the Open Source mini challenge. Official source: https://amazonappdev2026.devpost.com/rules
 
 ## Redacted export and recovery
 Preview and download a deliberately minimal JSON summary. It omits message text/excerpts, hostnames, contact names, IDs and trace; timestamps, cue labels and checklist notes remain. Download is local and is not sharing. Review before sharing yourself.
